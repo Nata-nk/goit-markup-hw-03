@@ -84,6 +84,15 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header-navigation {
+  display: flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 332px;
+  padding: 0 15px;
+}
+
 .logo {
   color: var(--color-iris);
   font-family: "Raleway", sans-serif;
@@ -104,15 +113,6 @@ img {
   align-items: flex-start;
   gap: 40px;
   padding: 24px 0;
-}
-
-.header-navigation {
-  display: flex;
-  height: 24px;
-  align-items: center;
-  flex-shrink: 0;
-  margin-right: 332px;
-  padding: 0 15px;
 }
 
 .header-address {
