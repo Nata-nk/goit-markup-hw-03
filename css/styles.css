@@ -120,6 +120,7 @@ img {
   align-items: flex-end;
   gap: 40px;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-navy {
@@ -149,7 +150,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .header-address-link:hover,
