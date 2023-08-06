@@ -57,6 +57,7 @@ img {
   padding-right: 15;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 
 .visually-hidden {
