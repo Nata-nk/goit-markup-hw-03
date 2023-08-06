@@ -80,6 +80,7 @@ img {
 .header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -90,20 +91,23 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-list {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-navigation {
-  display: inline-flex;
+  display: flex;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
   margin-right: 332px;
+  padding: 0 15px;
 }
 
 .header-address {
