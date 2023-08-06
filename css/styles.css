@@ -136,6 +136,9 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-menu-item {
   padding: 24px 0;
 }
 
