@@ -159,10 +159,6 @@ img {
   background-color: #2e2f42;
 }
 
-.hero-wrap {
-  padding: 188px 330px;
-}
-
 .hero-title {
   color: var(--white, #fff);
   text-align: center;
@@ -172,6 +168,7 @@ img {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin-bottom: 48px;
+  padding: 188px 330px;
 }
 .hero-btn {
   background-color: #4d5ae5;
