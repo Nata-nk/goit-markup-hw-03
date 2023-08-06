@@ -89,6 +89,11 @@ img {
   justify-content: space-between;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-navigation {
   display: flex;
   height: 24px;
