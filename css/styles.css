@@ -84,11 +84,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header.container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header-container {
   display: flex;
   align-items: center;
