@@ -398,8 +398,9 @@ img {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 32px;
   flex-shrink: 0;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
