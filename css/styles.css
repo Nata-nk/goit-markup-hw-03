@@ -408,6 +408,13 @@ img {
   width: 360px;
   height: 420px;
   padding-bottom: 0px;
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-category {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-img {
@@ -422,8 +429,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .portfolio-navigation-text {
   color: var(--color-slate);
@@ -431,5 +437,4 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
