@@ -337,7 +337,8 @@ img {
 /* ----------------PORTFOLIO------------------- */
 
 .portfolio {
-  padding: 96px 156px 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portfolio-logo {
