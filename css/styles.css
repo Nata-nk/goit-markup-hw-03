@@ -92,7 +92,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header-menu-item {
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-list {
