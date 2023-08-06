@@ -84,6 +84,16 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container {
+  align-items: center;
+  padding: 24px 0;
+}
+
 .header-navigation {
   display: flex;
   height: 24px;
@@ -115,10 +125,6 @@ img {
   align-items: flex-end;
   gap: 40px;
   margin-right: 76px;
-}
-
-.header-address-item {
-  padding: 24px 0;
 }
 
 .logo-navy {
