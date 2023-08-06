@@ -104,15 +104,10 @@ img {
   margin-right: 76px;
 }
 
-.header-menu-item {
-  padding: 24px 0;
-}
-
 .header-list {
   display: flex;
   align-items: flex-start;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-address {
@@ -141,14 +136,6 @@ img {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--color-ocean);
-}
-
-.header-address {
-  font-style: normal;
-}
-
-.header-address-link {
-  padding: 24px 0;
 }
 
 .header-address-link {
