@@ -257,7 +257,7 @@ img {
 /* ----------------OUR-TEAM------------------- */
 .ourteam {
   background-color: #f4f4fd;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 
 .ourteam-item {
@@ -268,14 +268,19 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   max-width: 264;
+  width: calc((100% - 72px) / 4);
 }
 
 .ourteam-list {
-  display: inline-flex;
+  display: flex;
   padding-bottom: 0px;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
+}
+
+.ourteam-item-name {
+  padding: 32px 0;
 }
 
 .ourteam-title {
@@ -296,7 +301,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 .ourteam-subtitele {
@@ -307,7 +311,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 /* ----------------FOOTER------------------- */
