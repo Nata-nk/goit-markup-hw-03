@@ -204,6 +204,9 @@ img {
   align-items: flex-start;
   gap: 24px;
   flex: shrink 0;
+}
+
+.sectionone-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -231,9 +234,13 @@ img {
 }
 
 .our-work-list {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
-  gap: 24;
+  gap: 24px;
+}
+
+.ourteam-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .ourteam-item-img {
