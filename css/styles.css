@@ -370,6 +370,7 @@ img {
   align-items: flex-start;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .portfolio-navigation-btn {
@@ -381,12 +382,16 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .portfolio-navigation-btn:hover,
 .portfolio-navigation-btn:focus {
   background-color: var(--color-ocean);
   color: var(--color-white);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .portfolio-list {
