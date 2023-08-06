@@ -116,9 +116,10 @@ img {
 }
 
 .header-address {
-  display: inline-flex;
+  display: flex;
   align-items: flex-end;
   gap: 40px;
+  margin-right: 76px;
 }
 
 .logo-navy {
@@ -144,6 +145,10 @@ img {
 
 .header-address {
   font-style: normal;
+}
+
+.header-address-item {
+  padding: 24px 0;
 }
 
 .header-address-link {
