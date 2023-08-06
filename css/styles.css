@@ -117,6 +117,10 @@ img {
   margin-right: 76px;
 }
 
+.header-address-item {
+  padding: 24px 0;
+}
+
 .logo-navy {
   color: #2e2f42;
 }
