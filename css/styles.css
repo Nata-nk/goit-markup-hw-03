@@ -109,6 +109,7 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-address {
@@ -133,9 +134,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-.header-menu-item {
-  padding: 24px 0;
-}
 .header-address-item {
   flex: shrink 0;
   min-width: 151px;
