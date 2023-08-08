@@ -53,8 +53,6 @@ img {
 
 .container {
   width: 1158px;
-  padding-left: 15;
-  padding-right: 15;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -93,9 +91,7 @@ img {
   display: flex;
   height: 24px;
   align-items: center;
-  flex-shrink: 0;
-  margin-right: 332px;
-  padding: 0 15px;
+  margin-right: auto;
 }
 
 .logo {
@@ -117,8 +113,8 @@ img {
 
 .header-address {
   display: flex;
-  align-items: flex-end;
   gap: 40px;
+  font-style: normal;
 }
 
 .logo-navy {
@@ -177,9 +173,8 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-bottom: 48px;
-  padding: 188px 0px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-btn {
   background-color: #4d5ae5;
@@ -240,7 +235,7 @@ img {
 /* ----------------OURWOK------------------- */
 
 .our-work {
-  padding: 0px 156px 120px;
+  padding-bottom: 120px;
 }
 
 .our-work-list {
@@ -307,8 +302,7 @@ img {
 .ourteam-item-text {
   color: var(--color-slate);
   text-align: center;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -340,7 +334,6 @@ img {
 }
 
 .footer-text {
-  margin-top: 17px;
   max-width: 264px;
 }
 
@@ -370,15 +363,8 @@ img {
   color: #f4f4fd;
 }
 
-.portfolio-item-btn {
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
-}
-
 .portfolio-list-btn {
   display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
@@ -407,18 +393,12 @@ img {
 
 .portfolio-list {
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
-  flex-shrink: 0;
   column-gap: 24px;
   row-gap: 48px;
 }
 
 .portfolio-item {
-  margin-top: 72px;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
   width: calc((100% - 48px) / 3);
 }
 
